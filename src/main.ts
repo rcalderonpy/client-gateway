@@ -22,6 +22,8 @@ async function bootstrap() {
 
 
   await app.listen(envs.port);
+
+  console.log('Hola Mundo - Primer cambio');
   logger.log(`Application listening on port ${envs.port}`);
 }
 bootstrap();
